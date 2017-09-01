@@ -431,7 +431,12 @@ label {
     height: 100%;
 }
 .section.splash {
-    background: url(../img/head_background.jpg) fixed no-repeat;
+    background: url(../img/head_background.jpg) no-repeat center top; /* fixed no-repeat; */
+    position: relative;
+    z-index: 1;
+}
+.section.splashlogin {
+    background: url(../img/head_background.jpg) no-repeat center top;
     position: relative;
     z-index: 1;
 }
@@ -500,7 +505,7 @@ label {
     padding: 100px 0;
 }
 
-.splash-block p { color:#fff !important; font-size:20px }
+.splash-block p { color:#fff ; font-size:20px }
 /*= JUMPER
 ---------------------------------------------------------------------------------------------- */
 .jumper {

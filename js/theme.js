@@ -2,7 +2,7 @@
  * Created by jojopoper on 2017/08/21.
  */
 $(function() {
-    $('#Grid').mixitup();
+    //$('#Grid').mixitup();
 
     $('.navbar-nav a').click(function (e) {
         e.preventDefault();
